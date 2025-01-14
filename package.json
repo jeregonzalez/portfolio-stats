@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@binance/connector-typescript": "^0.3.15",
+    "axios": "^1.7.9",
+    "bignumber.js": "^9.1.2",
+    "dotenv": "^16.4.7",
+    "envalid": "^8.0.0",
+    "ethers": "^6.13.5"
+  }
+}
